@@ -1,10 +1,12 @@
 # moonlightfantasia README
 
-This is my first VS-Code Extension
+Moonlight Fantasia VS-Code Extension
 
 ## Features
 
-Will give some ease of access in VS CODE
+Have two commands:
+  Hello World
+  Wish Me
 
 ## Requirements
 
