@@ -5,7 +5,7 @@ Moonlight Fantasia VS-Code Extension
 ## Features
 
 Have two commands:
-  Hello World
+  Hello World and
   Wish Me
 
 ## Requirements
