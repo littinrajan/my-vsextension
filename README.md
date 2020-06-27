@@ -41,7 +41,7 @@ No popup when activating Extension is fixed
 
 ### 1.1.0
 
-Added problem free popup.
+Added problem free popup for moonlightfantasia vs code extension
 
 -----------------------------------------------------------------------------------------------------------
 
