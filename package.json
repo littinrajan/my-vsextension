@@ -16,10 +16,6 @@
 	"contributes": {
 		"commands": [
 			{
-				"command": "moonlightfantasia.helloWorld",
-				"title": "Hello World"
-			},
-			{
 				"command": "moonlightfantasia.wishme",
 				"title": "Wish Me"
 			},

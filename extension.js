@@ -30,25 +30,25 @@ function activate(context) {
 	// 	// Display a message box to the user
 	// 	vscode.window.showInformationMessage('Hello World from moonlightfantasia!');
 	// });
-	let disposable = vscode.commands.registerCommand('moonlightfantasia.helloWorld', function () {
-		// The code you place here will be executed every time your command is executed
+	// let disposable = vscode.commands.registerCommand('moonlightfantasia.helloWorld', function () {
+	// 	// The code you place here will be executed every time your command is executed
 
-		// Display a message box to the user
-		vscode.window.showInformationMessage('Hello World from moonlightfantasia!');
-	});
+	// 	// Display a message box to the user
+	// 	vscode.window.showInformationMessage('Hello World from moonlightfantasia!');
+	// });
 
-	let disposable1 = vscode.commands.registerCommand('moonlightfantasia.wishme', function () {
+	let disposable = vscode.commands.registerCommand('moonlightfantasia.wishme', function () {
 		// The code you place here will be executed every time your command is executed
 
 		// Display a message box to the user
 		vscode.window.showInformationMessage('Wishes from moonlightfantasia.. All the best for your Future :)');
 	});
 
-	let disposable2 = vscode.commands.registerCommand('moonlightfantasia.weather', function () {
+	let disposable1 = vscode.commands.registerCommand('moonlightfantasia.weather', function () {
 		// The code you place here will be executed every time your command is executed
 
 		// Display a message box to the user
-		vscode.window.showInformationMessage('Wishes from moonlightfantasia!');
+		// vscode.window.showInformationMessage('Wishes from moonlightfantasia!');
 		// @ts-ignore
 		vscode.window.showInputBox("Please enter your ZipCode").then(zip => {
 			Weather(zip)  
@@ -57,7 +57,7 @@ function activate(context) {
 
 	context.subscriptions.push(disposable);
 	context.subscriptions.push(disposable1);
-	context.subscriptions.push(disposable2)
+	// context.subscriptions.push(disposable2)
 }
 exports.activate = activate;
 
