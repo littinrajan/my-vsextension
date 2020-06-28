@@ -22,6 +22,10 @@
 			{
 				"command": "moonlightfantasia.wishme",
 				"title": "Wish Me"
+			},
+			{
+				"command": "moonlightfantasia.weather",
+				"title": "Show Weather"
 			}
 		]
 	},
